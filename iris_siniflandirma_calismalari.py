@@ -342,4 +342,3 @@ plot_decision_boundaries(gnb_2d, X_vis, y_vis_encoded, 'Gaussian Naive Bayes Dec
 # Bu tür görselleştirmeler, modelin nasıl çalıştığını ve hangi türlerin nasıl ayrıldığını anlamanıza yardımcı olur.
 # Ayrıca, farklı modellerin karar sınırlarını karşılaştırarak hangi modelin veri seti için daha uygun olduğunu görselleştirir.
 
-print("Tüm işlemler tamamlandı.")
