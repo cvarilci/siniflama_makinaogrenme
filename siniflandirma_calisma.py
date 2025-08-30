@@ -5,15 +5,15 @@ import seaborn as sns
 
 df = pd.read_csv("16-diabetes.csv")
 
-df.head()
+print(df.head())
 
-df.info()
+print(df.info())
 
-df.describe()
+print(df.describe())
 
-df.isnull().sum()
+print(df.isnull().sum())
 
-df.columns
+print(df.columns)
 
 columns_to_check = ["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI"]
 
@@ -72,6 +72,8 @@ y_pred = ada.predict(X_test)
 print(classification_report(y_test, y_pred))
 print(accuracy_score(y_test, y_pred))
 print(confusion_matrix(y_test, y_pred))
+
+
 
 
 
