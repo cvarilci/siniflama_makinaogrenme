@@ -138,3 +138,4 @@ for name, mp in models.items():
 results_df = pd.DataFrame(results)
 print("\n📊 Tüm modellerin karşılaştırması:\n")
 print(results_df.sort_values(by="Accuracy", ascending=False))
+
